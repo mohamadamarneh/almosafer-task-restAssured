@@ -19,7 +19,7 @@ this is the first time i use rest assured for API testing, usualy i used to use 
 
 6-reports TestNG/Junit in :almosafer/test-output/emailable-report.html , almosafer/test-output/Default suite/Default test.html
 
-note: POST_TRIP_INFO.java fils just for make sure TDD works in others classes.
+note: the task have comments explained the codes and POST_TRIP_INFO.java fils just for make sure TDD works in others classes 
 
 
 hope you like it.
