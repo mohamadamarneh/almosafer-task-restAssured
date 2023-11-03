@@ -3,13 +3,10 @@ package tests;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
 import static org.hamcrest.Matchers.notNullValue;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 public class POST_TRIP_INFO {
@@ -20,7 +17,7 @@ public class POST_TRIP_INFO {
 		RestAssured.baseURI = "https://ae.almosafer.com";
 
 		// Extract the response body
-		JSONObject jsonObject = new JSONObject();
+		// JSONObject jsonObject = new JSONObject();
 
 		String jsonRequestBody = new String(Files.readAllBytes(Paths.get("..\\\\almosafer\\\\testdata.json")));
 		// System.out.println(jsonRequestBody);

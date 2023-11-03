@@ -8,6 +8,11 @@
           <include name="testGETRequest"/>
         </methods>
       </class> <!-- tests.GET_Trip_info -->
+      <class name="tests.POST_TRIP_INFO">
+        <methods>
+          <include name="testPOSTRequestWithResponseFromBody"/>
+        </methods>
+      </class> <!-- tests.GET_Trip_info -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
