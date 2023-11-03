@@ -7,6 +7,7 @@ this is the first time i use rest assured for API testing, usualy i used to use 
 2-it will run the GET requiest make smoke test and strcture data assert becuase the data changes in requists.
 3-then move the body of response for TestDataLoader.java to procces it in testdata.json.
 4-then it will call the data from (testdata.json) and put it in the body of POST requist and send the requist.
+
 5-from POST response it will make smoke test.
 6-reports TestNG/Junit in :almosafer/test-output/emailable-report.html , almosafer/test-output/Default suite/Default test.html
 
