@@ -2,7 +2,7 @@
 Hi there, 
 this is Almosafer required task (rest assured).
 
-this is the first time i use rest assured for API testing, usualy i used to use Postman or katalon Studio fo similar tasks but i prefered to use rest assured task as required :) .
+this is the first time i use rest assured for API testing, usualy i used to use Postman or katalon Studio for similar tasks but i prefered to use rest assured task as required :) .
 
 -the scenario if make get requist then do TDD in(testdata.json) for POST requist to put the GET response in the body and use it in POST requist.
 
